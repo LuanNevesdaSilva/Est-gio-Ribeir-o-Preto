@@ -1,0 +1,25 @@
+Vou para Sala 1, caso a Lâmpada esteja acesa:
+  Interruptor 2 = Sala 1
+  Vou para Sala 2 e toco na Lâmpada
+  Se a Lâmpada estiver quente:
+    Interruptor 1 = Sala 2
+    Interruptor 3 = Sala 3
+  Se não:
+    Interruptor 1 = Sala 3
+    Interruptor 3 = Sala 2
+Se não:
+  Toco na Lâmpada
+  Se a Lâmpada estiver quente:
+    Interruptor 1 = Sala 1
+  Se não:
+    Interruptor 3 = Sala 1
+  Vou para Sala 2
+  Se a Lâmpada estiver acesa:
+    Interruptor 2 = Sala 2
+  Se não:
+    Se Lâmpada 1 == Sala 1:
+      Interruptor 2 = Sala 3
+      Interruptor 3 = Sala 2
+    Se não:
+      Interruptor 2 = Sala 3
+      Interruptor 1 = Sala 2
