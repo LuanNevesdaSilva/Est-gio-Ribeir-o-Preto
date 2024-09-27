@@ -1,8 +1,8 @@
 cont = 0
-teste = input('insira a String: ')
+var = input('insira a String: ')
 
 
-for i in teste:
+for i in var:
     if 'a' == i or 'A' == i:
         cont += 1
     
